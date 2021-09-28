@@ -116,7 +116,6 @@ psutil==5.8.0
 py==1.10.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-PyAudio @ file:///C:/python.py/sachin/PyAudio-0.2.11-cp38-cp38-win32.whl
 pycparser==2.20
 Pygments==2.2.0
 pyinstaller==4.3
