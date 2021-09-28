@@ -7,19 +7,22 @@ export default function TextForm(props) {
 
 	const handleUpperClick = ()=>{
 		let new_text= text.toUpperCase();
-		setText(new_text)
+		setText(new_text);
+		props.showAlert("Text Has Converted into Uppercase", "success");
 	}
 
 
 	const handlelowerClick = ()=>{
 		let new_text= text.toLowerCase();
-		setText(new_text)
+		setText(new_text);
+		props.showAlert("Text Has Converted into Lowercase", "success");
 	}
 
 
 	const handleclearClick = ()=>{
 		let new_text= "";
-		setText(new_text)
+		setText(new_text);
+		props.showAlert("Text Has Cleared", "success");
 	}
 
 
@@ -28,6 +31,7 @@ export default function TextForm(props) {
 		text.select();
 		text.setSelectionRange(0, 9999);
 		navigator.clipboard.writeText(text.value);
+		props.showAlert("Text Has Copied", "success");
 	}
 
 

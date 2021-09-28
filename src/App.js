@@ -28,12 +28,16 @@ const [alert, setAlert] = useState(null)
   }
 }
 
-   const showAlert=(message,type) =>{
-    setAlert({
-      msg:message,
-      type:type
-      })
-   }
+
+ const showAlert = (message, type)=>{
+  setAlert({
+    msg: message,
+    type: type
+  })
+  setTimeout(() => {
+      setAlert(null);
+  }, 1500);
+}
 
 
 
@@ -57,7 +61,7 @@ const [alert, setAlert] = useState(null)
 
     heading = "Please Enter Your Text Here!"
     mode={mode}
-    alert={alert}/>
+    showAlert={showAlert}/>
 
     </div>
 
