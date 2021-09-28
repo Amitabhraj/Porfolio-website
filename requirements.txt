@@ -84,7 +84,6 @@ matplotlib==3.4.2
 matplotlib-inline==0.1.2
 mistune==0.8.4
 more-itertools==8.4.0
-mysqlclient @ file:///C:/Users/abhi%20raj/Downloads/mysqlclient-1.4.6-cp38-cp38-win32.whl
 nbclassic==0.3.1
 nbclient==0.5.3
 nbconvert==6.1.0
@@ -117,7 +116,6 @@ psutil==5.8.0
 py==1.10.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-PyAudio @ file:///C:/python.py/sachin/PyAudio-0.2.11-cp38-cp38-win32.whl
 pycparser==2.20
 Pygments==2.2.0
 pyinstaller==4.3
@@ -127,7 +125,6 @@ PyJWT==2.1.0
 pylab-sdk==1.3.2
 PyMySQL==1.0.2
 pyparsing==2.4.7
-pypiwin32==223
 PyPrind==2.11.3
 pyrsistent==0.18.0
 pySmartDL==1.3.4
@@ -139,7 +136,6 @@ python-social-auth==0.3.6
 python3-openid==3.2.0
 pyttsx3==2.90
 pytz==2021.1
-pywin32==301
 pywin32-ctypes==0.2.0
 pywinpty==0.5.7
 PyYAML==5.3.1
