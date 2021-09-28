@@ -84,7 +84,6 @@ matplotlib==3.4.2
 matplotlib-inline==0.1.2
 mistune==0.8.4
 more-itertools==8.4.0
-mysqlclient @ file:///C:/Users/abhi%20raj/Downloads/mysqlclient-1.4.6-cp38-cp38-win32.whl
 nbclassic==0.3.1
 nbclient==0.5.3
 nbconvert==6.1.0
