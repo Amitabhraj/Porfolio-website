@@ -31,7 +31,7 @@ export default function TextForm(props) {
 		text.select();
 		text.setSelectionRange(0, 9999);
 		navigator.clipboard.writeText(text.value);
-		props.showAlert("Text Has Copied", "success");
+		props.showAlert("Copied to Clipboard", "success");
 	}
 
 
