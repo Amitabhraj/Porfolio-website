@@ -6,8 +6,7 @@ import Alert from "./Components/Alert"
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import {useState} from 'react'
 
@@ -43,7 +42,7 @@ const [alert, setAlert] = useState(null)
   })
   setTimeout(() => {
       setAlert(null);
-  }, 1000);
+  }, 1500);
 }
 
 
@@ -68,7 +67,7 @@ const [alert, setAlert] = useState(null)
 
     <Switch>
         <Route exact path="/about">
-            <About/>
+            <About mode={mode}/>
         </Route>
         <Route exact path="/">
             <div className="container"><TextForm heading = "Please Enter Your Text Here!" mode={mode} showAlert={showAlert}/></div>
