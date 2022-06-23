@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
+.h1-responsive{
+	font-size:3rem;
+	font-weight: lighter;
+	font-family: 'Raleway', sans-serif;
+}
+
+#github,#linkedin,#Gmail,#phone{
+	font-size: 6rem;
+}
+
+#link_contact{
+	text-decoration: none;
+	color: inherit;
+}
+
+#ul-contact{
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap; 
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+*{
+    color: white;
+}
+#education,#personal_skills,#programming_skills,#certification,#personal_achievement,#work_experience{
+    font-size: 1.9rem;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+#duration{
+    font-size: 1rem;
+    color:#00A7DD;
+    font-family: 'BIZ UDGothic', sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 10;
+}
+
+#institution{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+
+#achievement{
+    font-size: 1.1rem;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+}
+
+#degree{
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    font-size: 1.9rem;
+    margin-bottom: 0;
+    padding-bottom: 10;
+}
+
+
+#hr{
+    width: 30%;
+    color: white;
+    margin-top:-1.1%;
+    margin-bottom:-0.4%; 
+}
+
+
+@media (max-width: 900px){
+#achievement,#institution,#degree{
+    font-weight: 500;
+}
+#hr{
+    width: 70%;
+    color: white;
+    margin-top:-1.1%;
+    margin-bottom:-0.4%; 
+}
+}

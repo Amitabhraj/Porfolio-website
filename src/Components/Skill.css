@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+@media (max-width: 541px){
+.head{
+	margin-top: 1rem;
+}
+}
+
+@media (min-width: 767px){
+.col-md-7 {
+    flex: 0 0 auto;
+    width: 49.33333333%; 
+}
+.head{
+	margin-top: 1rem;
+}
+}
+
+
+.python-progress-bar{
+  width:95%;
+  animation-duration: 2s;
+  animation-name: python;
+}
+@keyframes python {
+  from {width: 0%;}
+  to {width:95%;}
+}
+
+
+.html-css-progress-bar{
+  width:85%;
+  animation-duration: 2s;
+  animation-name: Html-css;
+}
+@keyframes Html-css {
+  from {width: 0%;}
+  to {width:85%;}
+}
+
+
+.javascript-progress-bar{
+  width:60%;
+  animation-duration: 2s;
+  animation-name: javascript;
+}
+@keyframes javascript {
+  from {width: 0%;}
+  to {width:60%;}
+}
+
+
+
+.react-progress-bar{
+  width:60%;
+  animation-duration: 2s;
+  animation-name: react;
+}
+@keyframes react {
+  from {width: 0%;}
+  to {width:60%;}
+}
+
+
+
+
+.django-progress-bar{
+  width:95%;
+  animation-duration: 2s;
+  animation-name: django;
+}
+@keyframes django {
+  from {width: 0%;}
+  to {width:95%;}
+}
+
+
+
+
+.flask-progress-bar{
+  width:80%;
+  animation-duration: 2s;
+  animation-name: flask
+}
+@keyframes flask {
+  from {width: 0%;}
+  to {width:80%;}
+}
+
+
+
+.node-progress-bar{
+  width:50%;
+  animation-duration: 2s;
+  animation-name: node;
+}
+@keyframes node {
+  from {width: 0%;}
+  to {width:50%;}
+}
+
+
+
+
+.bootstrap-progress-bar{
+  width:85%;
+  animation-duration: 2s;
+  animation-name: bootstrap;
+}
+@keyframes bootstrap {
+  from {width: 0%;}
+  to {width:85%;}
+}
+
+
+
+.git-github-progress-bar{
+  width:90%;
+  animation-duration: 2s;
+  animation-name: git-github;
+}
+@keyframes git-github {
+  from {width: 0%;}
+  to {width:90%;}
+}
+
+
+
+.aws-progress-bar{
+  width:60%;
+  animation-duration: 2s;
+  animation-name: aws;
+}
+@keyframes aws {
+  from {width: 0%;}
+  to {width:60%;}
+}
+
+
+.linux-progress-bar{
+  width:60%;
+  animation-duration: 2s;
+  animation-name: linux;
+}
+@keyframes linux {
+  from {width: 0%;}
+  to {width:60%;}
+}
+
+
+
+#name-skill{
+  font-family: 'Quicksand', sans-serif;
+  color:white;
+}
