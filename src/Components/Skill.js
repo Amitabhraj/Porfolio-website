@@ -72,7 +72,7 @@ export default function Skill(props) {
                   <h4 id="name-skill">React.js</h4>
                     <div className="progress">
                       <div className="react-progress-bar bg-primary">
-                            <center id="name-skill"><b>60%</b></center>
+                            <center id="name-skill"><b>70%</b></center>
                        </div>
                     </div>
                   </div>
@@ -104,7 +104,7 @@ export default function Skill(props) {
                   <h4 id="name-skill">Bootstrap</h4>
                     <div className="progress">
                       <div className="bootstrap-progress-bar bg-danger">
-                            <center id="name-skill"><b>85%</b></center>
+                            <center id="name-skill"><b>95%</b></center>
                       </div>
                     </div>
                   </div>
@@ -122,7 +122,7 @@ export default function Skill(props) {
                   <h4 id="name-skill">Git/Github</h4>
                     <div className="progress">
                       <div className="git-github-progress-bar bg-warning">
-                            <center id="name-skill"><b>90%</b></center>
+                            <center id="name-skill"><b>95%</b></center>
                        </div>
                     </div>
                   </div>
@@ -133,7 +133,7 @@ export default function Skill(props) {
                   <h4 id="name-skill">AWS ec2</h4>
                     <div className="progress">
                       <div className="aws-progress-bar bg-danger">
-                            <center id="name-skill"><b>60%</b></center>
+                            <center id="name-skill"><b>6%</b></center>
                        </div>
                     </div>
                   </div>
