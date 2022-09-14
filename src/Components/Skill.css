@@ -52,13 +52,13 @@
 
 
 .react-progress-bar{
-  width:60%;
+  width:70%;
   animation-duration: 2s;
   animation-name: react;
 }
 @keyframes react {
   from {width: 0%;}
-  to {width:60%;}
+  to {width:70%;}
 }
 
 
@@ -103,37 +103,37 @@
 
 
 .bootstrap-progress-bar{
-  width:85%;
+  width:95%;
   animation-duration: 2s;
   animation-name: bootstrap;
 }
 @keyframes bootstrap {
   from {width: 0%;}
-  to {width:85%;}
+  to {width:95%;}
 }
 
 
 
 .git-github-progress-bar{
-  width:90%;
+  width:95%;
   animation-duration: 2s;
   animation-name: git-github;
 }
 @keyframes git-github {
   from {width: 0%;}
-  to {width:90%;}
+  to {width:95%;}
 }
 
 
 
 .aws-progress-bar{
-  width:60%;
+  width:65%;
   animation-duration: 2s;
   animation-name: aws;
 }
 @keyframes aws {
   from {width: 0%;}
-  to {width:60%;}
+  to {width:65%;}
 }
 
 
