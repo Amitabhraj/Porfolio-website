@@ -31,7 +31,7 @@ export default function Experience(props) {
                     <div style={{width:"90%"}}>
                     I Have Done an internship in a Solar Panel Based Start-up Company as a Full Stack web Developer where i Made a real time Data Graph using IOT and i Have Deployed that website using Amazon ec2 instance as well.
                     </div>
-                <p className="mt-2" id="duration">june,2021- Currently Working</p>
+                <p className="mt-2" id="duration">may,2021- june,2021</p>
                 </p>
         </div><br/>
 
