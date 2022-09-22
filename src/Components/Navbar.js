@@ -30,21 +30,10 @@ export default function Navbar(props) {
                       Home
                     </NavLink>
 
-                    <NavLink to='/skill' exact className='header-bars mx-5'>
-                      Skills
-                    </NavLink>
-
-                    <NavLink to='/experience' exact className='header-bars mx-5'>
-                      Experience
-                    </NavLink>
-
                     <NavLink to='/contactme' exact className='header-bars mx-5'>
                       Contact Me
                     </NavLink>
 
-                    <NavLink to='/resume' exact className='header-bars mx-5'>
-                      Resume
-                    </NavLink>
 
                 </div>
               <div className="default-nav"></div>
