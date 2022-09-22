@@ -15,7 +15,7 @@ return (
 	<div className="mx-5">
 		<p id="short-intro" className="mx-5">
 			A high school student who does not have a college degree but well Experienced 
-			in the field of Science.Have Very Good Knowledge in Science. i am Inspired From Albert Einstein becuase of his greateness in field of Science
+			in the field of Science.Have Very Good Knowledge in Science. i am Inspired From Albert Einstein because of his greateness in field of Science
 		</p>
 	</div>
 	<img src={photo} id="photo"/>
