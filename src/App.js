@@ -26,22 +26,12 @@ function App() {
       <Route exact path="/">
             <Starter/>
         </Route>
-
-        <Route exact path="/skill">
-            <Skill/>
-        </Route>
+        
 
         <Route exact path="/contactme">
             <Contact />
         </Route>
 
-        <Route exact path="/experience">
-            <Experience />
-        </Route>
-
-        <Route exact path="/resume">
-            <Resume />
-        </Route>
     </Switch>
 
 </Router>
