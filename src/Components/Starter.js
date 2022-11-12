@@ -4,9 +4,10 @@ import * as FaIcons from 'react-icons/fa';
 import * as Si from 'react-icons/si';
 import { Link } from 'react-router-dom';
 import './Starter.css';
-import photo from './amitabh_photo.png'
+import photo from './profile_picture.jpg'
 
 export default function Starter(props) {
+	
 
 return (
 <>
